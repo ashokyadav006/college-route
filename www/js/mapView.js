@@ -42,7 +42,6 @@ var app = app || {};
 					zoom: 17,
 					minZoom: 17,
 					maxZoom: 21,
-					extent: [29.010995635,41.097090849999994,29.041494355,41.111602049999995],
 					projection: new ol.proj.Projection({
 						code: 'EPSG:4326',
 						units: 'degrees'
