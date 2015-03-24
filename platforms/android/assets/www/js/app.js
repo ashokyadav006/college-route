@@ -35,12 +35,14 @@
         }
     });
 
-    onDeviceReady= function () {
-        alert("hello");
-        app.Router = new Router();
+    function onDeviceReady() {
+        //alert("Hello");
+        app.router = new Router();
         Backbone.history.start();
     };
 
-    document.addEventListener('deviceready', onDeviceReady);
+    //Remove this line while building and uncomment below line
+    onDeviceReady();
 
+    //document.addEventListener('deviceready', onDeviceReady);
 })();

@@ -7,3 +7,17 @@ html,body {
 	height: 100%;
 	width: 100%;
 }
+
+.box {
+	position: absolute;
+}
+.search-box {
+	top: 20px;
+	right:15px;
+	z-index: 100;
+}
+.location-box {
+	bottom: 20px;
+	right: 15px;
+	z-index: 100;
+}
